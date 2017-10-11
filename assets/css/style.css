@@ -317,6 +317,10 @@ input[type=submit] {
   body {
     width: 600px;
   }
+  .container {
+    position: relative;
+    left: -15px;
+  }
 
   #main-container {
     padding-top: 0px
@@ -332,7 +336,7 @@ input[type=submit] {
   }
   nav {
     position: relative;
-    right: 33%;
+    right: 30%;
   }
   .main-section {
     width: 518px;
