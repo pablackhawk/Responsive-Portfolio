@@ -63,7 +63,7 @@ a:visited {
 
 /* header */
 
-#masthead {
+#top-bar {
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -259,4 +259,95 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+@media screen and (max-width: 980px) {
+
+  .main-section {
+    max-width: 600px;
+  }
+
+  .work {
+    position: relative;
+    left: 25%;
+  }
+  .sidebar {
+    max-width: 260px;
+  }
+
+  .container {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 768px)  {
+
+  .main-section {
+    max-width: 600px;
+  }
+
+  .sidebar {
+    max-width: 600px;
+    position: relative;
+    left: -49px;
+    
+  }
+
+  .work {
+    position: relative;
+    left: 25%;
+  }
+  .social {
+    position: relative;
+    left: 30%;
+  }
+
+  .container {
+    padding: 0 60px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  
+  #main-container {
+    padding-top: 0px;
+  }
+
+  #top-bar {
+    position: static;
+    top: 0px;
+    height: ;
+  }
+  nav {
+    position: relative;
+    right: 33%;
+  }
+  .main-section {
+    width: 518px;
+    position: relative;
+    top: 10px;
+  }
+
+  #logo {
+    width: 518px;
+  }
+  .sidebar {
+    width: 518px;
+    position: relative;
+    left: 0px;
+    margin: 0 auto;
+  }
+
+  .work {
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .container {
+    padding: 0 60px;
+  }
+
+  .push {
+    height: 150px;
+  }
 }
