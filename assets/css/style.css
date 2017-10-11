@@ -264,7 +264,7 @@ input[type=submit] {
 @media screen and (max-width: 980px) {
 
   body {
-    widows: 980px;
+    width: 980px;
   }
 
   #top-bar {
@@ -279,6 +279,7 @@ input[type=submit] {
     position: relative;
     left: 25%;
   }
+  
   .sidebar {
     max-width: 260px;
   }
@@ -297,6 +298,7 @@ input[type=submit] {
   #top-bar {
     width: 768px;
   }
+
   #main-container {
     position: relative;
     left: 5px;
@@ -309,7 +311,7 @@ input[type=submit] {
   .sidebar {
     max-width: 600px;
     position: relative;
-    left: -15px;
+    left: -45px;
     
   }
 
@@ -331,13 +333,14 @@ input[type=submit] {
   
   body {
     width: 640px;
-    position: relative;
   
   }
 
 
   #main-container {
     padding-top: 0px;
+    position: relative;
+    left: -15px;
     
   }
 
@@ -346,10 +349,12 @@ input[type=submit] {
     top: 0px;
     width: 640px;
   }
+
   nav {
     position: relative;
     right: 30%;
   }
+
   .main-section {
     width: 518px;
     position: relative;
