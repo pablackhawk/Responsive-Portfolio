@@ -263,6 +263,14 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 
+  body {
+    widows: 980px;
+  }
+
+  #top-bar {
+    width: 980px;
+  }
+
   .main-section {
     max-width: 600px;
   }
@@ -282,6 +290,13 @@ input[type=submit] {
 
 @media screen and (max-width: 768px)  {
 
+  body {
+    width: 768px;
+  }
+
+  #top-bar {
+    width: 768px;
+  }
   #main-container {
     position: relative;
     left: 30px;
@@ -294,7 +309,7 @@ input[type=submit] {
   .sidebar {
     max-width: 600px;
     position: relative;
-    left: -49px;
+    left: -15px;
     
   }
 
@@ -315,7 +330,9 @@ input[type=submit] {
 @media screen and (max-width: 640px) {
   
   body {
-    width: 600px;
+    width: 640px;
+    position: relative;
+    left: 30px;
   }
   .container {
     position: relative;
@@ -323,8 +340,7 @@ input[type=submit] {
   }
 
   #main-container {
-    padding-top: 0px
-    ;
+    padding-top: 0px;
     position: relative;
     left: -20px;
   }
@@ -332,7 +348,7 @@ input[type=submit] {
   #top-bar {
     position: static;
     top: 0px;
-    height: ;
+    width: 640px;
   }
   nav {
     position: relative;
@@ -347,10 +363,11 @@ input[type=submit] {
   #logo {
     width: 518px;
   }
+
   .sidebar {
     width: 518px;
     position: relative;
-    left: 40px;
+    left: 0px;
     margin: 0 auto;
   }
 
