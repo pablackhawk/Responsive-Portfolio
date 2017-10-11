@@ -309,6 +309,10 @@ input[type=submit] {
 
 @media screen and (max-width: 640px) {
   
+  body {
+    width: 600px;
+  }
+
   #main-container {
     padding-top: 0px
     ;
@@ -335,7 +339,7 @@ input[type=submit] {
   .sidebar {
     width: 518px;
     position: relative;
-    left: 0px;
+    left: 40px;
     margin: 0 auto;
   }
 
