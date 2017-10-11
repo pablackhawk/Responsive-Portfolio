@@ -299,7 +299,7 @@ input[type=submit] {
   }
   #main-container {
     position: relative;
-    left: 30px;
+    left: 5px;
   }
 
   .main-section {
@@ -332,17 +332,13 @@ input[type=submit] {
   body {
     width: 640px;
     position: relative;
-    left: 30px;
+  
   }
-  .container {
-    position: relative;
-    left: -15px;
-  }
+
 
   #main-container {
     padding-top: 0px;
-    position: relative;
-    left: -20px;
+    
   }
 
   #top-bar {
