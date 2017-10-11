@@ -279,7 +279,8 @@ input[type=submit] {
     position: relative;
     left: 25%;
   }
-  
+
+
   .sidebar {
     max-width: 260px;
   }
@@ -339,8 +340,6 @@ input[type=submit] {
 
   #main-container {
     padding-top: 0px;
-    position: relative;
-    left: -15px;
     
   }
 
