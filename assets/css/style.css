@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: rgb(190, 188, 188);
-  background: url("../images/micro_carbon.png");
+  background: url('../images/micro_carbon.png');
 }
 
 * {
@@ -35,7 +35,7 @@ h2,
 h3 {
   font-family: 'David Libre', serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: rgb(209, 114, 24);
   text-shadow: 1px 1px #1b1b1b;
 }
 
@@ -52,14 +52,14 @@ h3 {
 }
 
 a:link {
-  color: hsl(93,95%,33%);
+  color: hsl(93, 95%, 33%);
 }
 
 a:hover {
-  color:hsla(196, 93%, 39%, 0.6);
+  color: hsla(196, 93%, 39%, 0.6);
 }
 a:visited {
-  color: hsl(58,80%,42%);
+  color: hsl(58, 80%, 42%);
 }
 
 /* header */
@@ -85,7 +85,7 @@ a:visited {
   color: #fff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: rgb(209, 114, 24);
 }
 
 nav {
@@ -127,7 +127,6 @@ footer {
   background: #666;
 }
 
-
 /* sidebar */
 
 .sidebar {
@@ -136,8 +135,10 @@ footer {
   max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
-  background: hsla(0, 2%, 75%, 0.671);
-  border: 1px solid hsla(0, 1%, 13%, 0.342);
+  background: #666;
+  border: 1px solid #ddd;
+  position: fixed;
+  right: 240px;
 }
 
 h3,
@@ -172,7 +173,7 @@ h3,
   max-width: 650px;
   padding: 30px;
   margin: 0 0 40px;
-  background: hsla(0, 2%, 75%, 0.671);
+  background: #666;
   border: 1px solid #ddd;
 }
 
@@ -192,7 +193,7 @@ h3,
 
 .work img {
   width: 250px;
-  height:250px;
+  height: 250px;
   border: 0 none;
   opacity: 0.8;
 }
@@ -207,7 +208,7 @@ h3,
   line-height: 30px;
   color: #fff;
   text-align: center;
-  background: #4aaaa5;
+  background: rgb(209, 114, 24);
   border-bottom: 0;
 }
 
@@ -230,15 +231,15 @@ h3,
 }
 
 label,
-input[type=text],
-input[type=email],
+input[type='text'],
+input[type='email'],
 textarea {
   display: block;
   width: 100%;
 }
 
-input[type=text],
-input[type=email],
+input[type='text'],
+input[type='email'],
 textarea {
   height: 35px;
   padding: 0 10px;
@@ -251,7 +252,7 @@ textarea {
   padding: 10px;
 }
 
-input[type=submit] {
+input[type='submit'] {
   padding: 10px 30px;
   font-size: 18px;
   color: #fff;
@@ -261,7 +262,6 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-
   body {
     width: 980px;
   }
@@ -279,7 +279,6 @@ input[type=submit] {
     left: 25%;
   }
 
-
   .sidebar {
     max-width: 260px;
   }
@@ -289,8 +288,7 @@ input[type=submit] {
   }
 }
 
-@media screen and (max-width: 768px)  {
-
+@media screen and (max-width: 768px) {
   body {
     width: 768px;
   }
@@ -312,7 +310,6 @@ input[type=submit] {
     max-width: 600px;
     position: relative;
     left: -45px;
-    
   }
 
   .work {
@@ -330,16 +327,12 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 640px) {
-  
   body {
     width: 640px;
-  
   }
-
 
   #main-container {
     padding-top: 0px;
-    
   }
 
   #top-bar {
