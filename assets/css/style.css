@@ -196,6 +196,7 @@ h3,
   height: 250px;
   border: 0 none;
   opacity: 0.8;
+  object-fit: cover;
 }
 
 .work h3 {
